@@ -5,21 +5,21 @@
 class Hostler < Formula
   desc "CLI tool to manage local development domains with nginx"
   homepage "https://github.com/serhiitroinin/hostler"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/serhiitroinin/hostler/releases/download/v1.0.0/hostler_1.0.0_darwin_amd64.tar.gz"
-      sha256 "2be095695fc1e8fbf1924b83ce29c726b70b6e344f71216effcb4981e112c989"
+      url "https://github.com/serhiitroinin/hostler/releases/download/v1.1.0/hostler_1.1.0_darwin_amd64.tar.gz"
+      sha256 "7c68ee10fdca9ebd7d5d0a2012db9211ed885f0e0dbcb218a49575076c0dd963"
 
       def install
         bin.install "hostler"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/hostler/releases/download/v1.0.0/hostler_1.0.0_darwin_arm64.tar.gz"
-      sha256 "73740e1dd090c94e4023ec1d074657faa97d4fdb7ce178759e3e806b24726604"
+      url "https://github.com/serhiitroinin/hostler/releases/download/v1.1.0/hostler_1.1.0_darwin_arm64.tar.gz"
+      sha256 "76e9a9520c0087388ae8909ad787d75946488c52a159965101714a962b56a5db"
 
       def install
         bin.install "hostler"
@@ -29,15 +29,15 @@ class Hostler < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/serhiitroinin/hostler/releases/download/v1.0.0/hostler_1.0.0_linux_amd64.tar.gz"
-      sha256 "c189d6586760c6c6374c0ce4cd215fb9251138efddbd97e9bf83ad89da056add"
+      url "https://github.com/serhiitroinin/hostler/releases/download/v1.1.0/hostler_1.1.0_linux_amd64.tar.gz"
+      sha256 "17b9a5730d5253d77865195654f9a4777c6203c0b53afe5ddacff49f073122e3"
       def install
         bin.install "hostler"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/serhiitroinin/hostler/releases/download/v1.0.0/hostler_1.0.0_linux_arm64.tar.gz"
-      sha256 "1cd5c37614df63bd72d893ec79f71529952a766c5dae57a66511a2280822d4ef"
+      url "https://github.com/serhiitroinin/hostler/releases/download/v1.1.0/hostler_1.1.0_linux_arm64.tar.gz"
+      sha256 "7e005e2b83b91c07322383986ab4b238b3ef7a676afaf0f8871fd7f6bf623713"
       def install
         bin.install "hostler"
       end

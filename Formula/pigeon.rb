@@ -7,10 +7,10 @@ class Pigeon < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/pigeon/releases/download/v0.1.1/pigeon-darwin-arm64.tar.gz"
-      sha256 "ee9c23d2768a5938af1146bd6230ee65a30e26dacc8c0a943f84ff1b9ccd7122"
+      sha256 "de45bf3104980e0dc39d9d6f56955c9a3de2a6736c7b09b8534607d404d159b1"
     else
       url "https://github.com/serhiitroinin/pigeon/releases/download/v0.1.1/pigeon-darwin-x64.tar.gz"
-      sha256 "6c503423744f5164b3f0e1e30bcb493e77d2ce3e08e70cf7fa24cc990c65fcbf"
+      sha256 "81fb2231dad49a24fe630e5db74c2ccc2c58b205c5a1de7a073499c10ae92f36"
     end
   end
 

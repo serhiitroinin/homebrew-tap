@@ -7,10 +7,10 @@ class Glu < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/glu/releases/download/v0.2.0/glu-darwin-arm64.tar.gz"
-      sha256 "e286838ef05aadcc29d34412d91ed15f5ab86a48e62890999fa8edf5cf54b9d7"
+      sha256 "a5c7a35b2400fc488af7ea8669051d2262864d1705dfc0810103e445f64f707c"
     else
       url "https://github.com/serhiitroinin/glu/releases/download/v0.2.0/glu-darwin-x64.tar.gz"
-      sha256 "4bc5efa160e9844b9ba222ea945614bd643d35d6092d632a3483fb2e85e7b929"
+      sha256 "1dea923fc854789278057ccafab4545d32fd6ee7bf7b0944a21ce566024e7b99"
     end
   end
 

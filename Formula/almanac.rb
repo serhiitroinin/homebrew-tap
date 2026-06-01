@@ -7,10 +7,10 @@ class Almanac < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/almanac/releases/download/v0.1.1/almanac-darwin-arm64.tar.gz"
-      sha256 "316063f4a579a2f3f29ee0319d6a03d8d1cbfc6fb8c33a2b98b54d69db96269f"
+      sha256 "34d36c82f5742e2092e5b301e65db3b09759f3c93aad992a1d05990b5aeafa76"
     else
       url "https://github.com/serhiitroinin/almanac/releases/download/v0.1.1/almanac-darwin-x64.tar.gz"
-      sha256 "ec395d230502afd33614a15148984816fcd62114b2a31904b7bae45ecf6b52bd"
+      sha256 "688d71c25e246caf5d99e0c6eb1e1f0e11dd68aa3038486db44987d35721b082"
     end
   end
 

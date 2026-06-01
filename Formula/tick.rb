@@ -7,10 +7,10 @@ class Tick < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/tick/releases/download/v0.1.1/tick-darwin-arm64.tar.gz"
-      sha256 "81530f7ca71e8ca7715906ab1e560618738db1c11de89b887337e6874193b0e6"
+      sha256 "0a8c00b5d3944014d284764cbdb30cad3d5af4ea7ef9deeb1a6ea0a94d70945f"
     else
       url "https://github.com/serhiitroinin/tick/releases/download/v0.1.1/tick-darwin-x64.tar.gz"
-      sha256 "353a7b582495812c883c00a9666a18bc6d844e38924e69da691da06be30abc9f"
+      sha256 "0b759a5e8e559907e51fa11b65e765045608c69076c9e991bbae155b167f6bea"
     end
   end
 

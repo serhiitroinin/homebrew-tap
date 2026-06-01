@@ -7,10 +7,10 @@ class Rescuetime < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/rescuetime/releases/download/v0.1.1/rescuetime-darwin-arm64.tar.gz"
-      sha256 "60dc811ce2dfe847d8ce8d2cb234eef0a8b98c38ae1ee5eec77ed6de3fa01acd"
+      sha256 "c6df6e35c1938abc9041638d09c272b3a219b57b2b7b489991aac7a04f12cea8"
     else
       url "https://github.com/serhiitroinin/rescuetime/releases/download/v0.1.1/rescuetime-darwin-x64.tar.gz"
-      sha256 "2e9cd21e2a65a081568bc93f17f6e0d5a0e7b2f4a38fa89fd44fa7f84c3c1fd3"
+      sha256 "3be1481036243799d43095941be500d18369d6d4e76b68e586522486fec99f19"
     end
   end
 

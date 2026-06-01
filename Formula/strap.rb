@@ -7,20 +7,10 @@ class Strap < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/strap/releases/download/v0.2.0/strap-darwin-arm64.tar.gz"
-      sha256 "87cf0c6edbdaec2808c6bc9725ffc98d04fa778b5fa8fa1d9c93d86973069477"
+      sha256 "d45d05c0d9e3107001a6c1167e01d53a12758d04db423aa4a057752ecaa1de5d"
     else
       url "https://github.com/serhiitroinin/strap/releases/download/v0.2.0/strap-darwin-x64.tar.gz"
-      sha256 "5ff288a38033fc817d20877336152780e6b5bb3d163af3a758104641759649e1"
-    end
-  end
-
-  on_linux do
-    if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/strap/releases/download/v0.2.0/strap-linux-arm64.tar.gz"
-      sha256 "d94a078fdba8b528b667c984d61d6263f4470131fb25365c7bfa5c38bdf8eca3"
-    else
-      url "https://github.com/serhiitroinin/strap/releases/download/v0.2.0/strap-linux-x64.tar.gz"
-      sha256 "2080911976c796537f04f38ba2d3d7d63d762327057caaa3d5543cabcd644e76"
+      sha256 "35e3b57872debcb28b938856053fa191ea717df837f8ab360605ac72cdb44dd7"
     end
   end
 

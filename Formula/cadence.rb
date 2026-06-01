@@ -7,20 +7,10 @@ class Cadence < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/serhiitroinin/cadence/releases/download/v0.2.0/cadence-darwin-arm64.tar.gz"
-      sha256 "a27c991e9d0f4c1e02d4d770e65aa96401a76b668ff1219b80568c18a1015d40"
+      sha256 "46c29ec9bc488b340a9424c428631dc2c75f3432c71c9d2d6238708360fe7e92"
     else
       url "https://github.com/serhiitroinin/cadence/releases/download/v0.2.0/cadence-darwin-x64.tar.gz"
-      sha256 "2cc08eb3475c3ac112be2460a47d94b2918a03c7f1a231bbd3d1b5c846483fca"
-    end
-  end
-
-  on_linux do
-    if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/cadence/releases/download/v0.2.0/cadence-linux-arm64.tar.gz"
-      sha256 "d0528438e09fcbb5318296c205c36c8bb36c7dc252caa6a495f3d9a89a4175a3"
-    else
-      url "https://github.com/serhiitroinin/cadence/releases/download/v0.2.0/cadence-linux-x64.tar.gz"
-      sha256 "f44d93e108ffc739c51af0b5d44d77c059f52201a67a731fb17f4b8a6a291ea7"
+      sha256 "d3de45f9eb86f8fbf87a63eb81a7043edad0015f0fad20fe0da9310a5fa06b0e"
     end
   end
 

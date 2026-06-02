@@ -1,16 +1,16 @@
 class Almanac < Formula
   desc "Google Calendar CLI — multi-account agenda, events, scheduling from your shell"
   homepage "https://github.com/serhiitroinin/almanac"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/almanac/releases/download/v0.1.2/almanac-darwin-arm64.tar.gz"
-      sha256 "0c02162b75d6b949df87ef8cf33779bb108ba7fad7d6157d96f1a5d581ae526a"
+      url "https://github.com/serhiitroinin/almanac/releases/download/v0.1.3/almanac-darwin-arm64.tar.gz"
+      sha256 "f3cee59931099fd7b860c51d716f4339c8f339fe269bbd15ddbdb9b8cc9c08fb"
     else
-      url "https://github.com/serhiitroinin/almanac/releases/download/v0.1.2/almanac-darwin-x64.tar.gz"
-      sha256 "d23c02422db2632c9a347cb5bbb39bba6456d49a5e664b4c76b1ddcbd86e7b3d"
+      url "https://github.com/serhiitroinin/almanac/releases/download/v0.1.3/almanac-darwin-x64.tar.gz"
+      sha256 "9ea67132540cfeed91e676897dc23eaae22558b391a4d971a4cee038baf94541"
     end
   end
 

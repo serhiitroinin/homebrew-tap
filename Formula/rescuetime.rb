@@ -1,16 +1,16 @@
 class Rescuetime < Formula
   desc "RescueTime productivity data CLI — pulse, categories, activities, focus"
   homepage "https://github.com/serhiitroinin/rescuetime"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/rescuetime/releases/download/v0.1.2/rescuetime-darwin-arm64.tar.gz"
-      sha256 "5a919ebca5d781e6a3154b4fb0c75726325235e2c5b4cb4e3d57abc26edd0bb3"
+      url "https://github.com/serhiitroinin/rescuetime/releases/download/v0.1.3/rescuetime-darwin-arm64.tar.gz"
+      sha256 "058c23edff8fcf2852100e44ffc586b13bc305c247ffebc417f3055c36c6d4df"
     else
-      url "https://github.com/serhiitroinin/rescuetime/releases/download/v0.1.2/rescuetime-darwin-x64.tar.gz"
-      sha256 "02446a4ff68210952941a3ed39883a611f3bd60d6927d1540a24d0b3e688efd4"
+      url "https://github.com/serhiitroinin/rescuetime/releases/download/v0.1.3/rescuetime-darwin-x64.tar.gz"
+      sha256 "f83f97b1b180ad1dded9f60fe9af5e5ac3eef0ae53941f4b406f0345fcb65052"
     end
   end
 

@@ -1,16 +1,16 @@
 class Tick < Formula
   desc "Todoist CLI — tasks, projects, labels, sections from your shell"
   homepage "https://github.com/serhiitroinin/tick"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/tick/releases/download/v0.1.2/tick-darwin-arm64.tar.gz"
-      sha256 "21012d34ec934edbaa4e34050e13edf8611658bd9037c84086c05ba2fb12c787"
+      url "https://github.com/serhiitroinin/tick/releases/download/v0.1.3/tick-darwin-arm64.tar.gz"
+      sha256 "d28d4f9907a3e13a88edf1d7f0a7174855536c876960c99469c1770353b7deba"
     else
-      url "https://github.com/serhiitroinin/tick/releases/download/v0.1.2/tick-darwin-x64.tar.gz"
-      sha256 "98096fa40d20c824fa8d92ecc7a80f596ca359e88c2a363ee572b090df09e054"
+      url "https://github.com/serhiitroinin/tick/releases/download/v0.1.3/tick-darwin-x64.tar.gz"
+      sha256 "71c0f7367c7bff6aec6d66a7fc24447aac7f270d96e60cc27bee2159a3a1fe73"
     end
   end
 

@@ -1,16 +1,16 @@
 class Cadence < Formula
   desc "Garmin Connect CLI — training readiness, sleep, HRV, body battery, activities"
   homepage "https://github.com/serhiitroinin/cadence"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/cadence/releases/download/v0.2.1/cadence-darwin-arm64.tar.gz"
-      sha256 "e1a1b18991c2ec301e3173cb2e3aea4ee8d2f844ccf39a2aece509402dd95a74"
+      url "https://github.com/serhiitroinin/cadence/releases/download/v0.3.0/cadence-darwin-arm64.tar.gz"
+      sha256 "3e538ee3e4fcc352c71ec060ca59abe5f0c838031eb9167dba1f26d06ebb7d84"
     else
-      url "https://github.com/serhiitroinin/cadence/releases/download/v0.2.1/cadence-darwin-x64.tar.gz"
-      sha256 "ed9433b8a3b705d9f524ec044a256d7334490b7377e9a74d7ab84b3f5db25951"
+      url "https://github.com/serhiitroinin/cadence/releases/download/v0.3.0/cadence-darwin-x64.tar.gz"
+      sha256 "b4fca3241007a81da4838780e56328feb066294cb78c93f2b627d78ff4be982c"
     end
   end
 

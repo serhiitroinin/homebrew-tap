@@ -1,16 +1,16 @@
 class Glu < Formula
   desc "FreeStyle Libre 3 CGM data CLI — glucose, TIR, and configurable targets"
   homepage "https://github.com/serhiitroinin/glu"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/glu/releases/download/v0.3.0/glu-darwin-arm64.tar.gz"
-      sha256 "bb88bb266d59825aba28f60593a2c08aaff0352e9b43ab071fcd573247a17de4"
+      url "https://github.com/serhiitroinin/glu/releases/download/v0.4.0/glu-darwin-arm64.tar.gz"
+      sha256 "fd36a06e6a321f3319647d280eb5c4dfc86372d647a81639ffa85f09a1df41f4"
     else
-      url "https://github.com/serhiitroinin/glu/releases/download/v0.3.0/glu-darwin-x64.tar.gz"
-      sha256 "1a859edc3ec3ee8b760e2c8e9b822b27157f9488eb1fcee2195a08c9e08868d4"
+      url "https://github.com/serhiitroinin/glu/releases/download/v0.4.0/glu-darwin-x64.tar.gz"
+      sha256 "7d660f72609c8fb706d276948d5cdb7f10625eb4562cd961078793d60f466bc3"
     end
   end
 

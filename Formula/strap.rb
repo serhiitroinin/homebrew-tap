@@ -1,16 +1,16 @@
 class Strap < Formula
   desc "WHOOP CLI — recovery, strain, sleep, workouts, cycles from your shell"
   homepage "https://github.com/serhiitroinin/strap"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/strap/releases/download/v0.2.1/strap-darwin-arm64.tar.gz"
-      sha256 "774692d5a8bca881e7052a78c9b9a84057d453faa7ba165bba354cbb90c5ab7d"
+      url "https://github.com/serhiitroinin/strap/releases/download/v0.3.0/strap-darwin-arm64.tar.gz"
+      sha256 "42d5c101a7d4647d4e4ee492411b0a9e03240f0bb92625f04dd04304a17d71c6"
     else
-      url "https://github.com/serhiitroinin/strap/releases/download/v0.2.1/strap-darwin-x64.tar.gz"
-      sha256 "89a5f4246977a68625603f79457b82489e5b78e77b5601fa84accaea27c26859"
+      url "https://github.com/serhiitroinin/strap/releases/download/v0.3.0/strap-darwin-x64.tar.gz"
+      sha256 "57b56425904abc7de0d07c67f070dea2c1bdf4f3923cf897c66a41a3edc19688"
     end
   end
 
